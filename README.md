@@ -1,5 +1,8 @@
 # Trump2Cash
 ## A modified version for more twitter entities.
+```
+- More financial twittwers tracking, analysis;
+- Summary analysis result, update the table daily;
 
 This bot watches [Donald Trump's tweets](https://twitter.com/realDonaldTrump)
 and waits for him to mention any publicly traded companies. When he does, it
