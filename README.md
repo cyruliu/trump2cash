@@ -1,9 +1,9 @@
 # Trump2Cash
 ## A modified version for more twitter entities.
-```
+
 ### 1. More financial twittwers tracking, analysis;
-### 3. Summary analysis result, update the table daily;
-```
+### 2. Summary analysis result, update the table daily;
+
 This bot watches [Donald Trump's tweets](https://twitter.com/realDonaldTrump)
 and waits for him to mention any publicly traded companies. When he does, it
 uses sentiment analysis to determine whether his opinions are positive or
