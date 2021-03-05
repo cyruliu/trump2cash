@@ -26,13 +26,13 @@ def callback(tweet):
     assert tweet
 
 
-# def test_streaming(twitter):
-#     # Let the stream run for two seconds and run it again after a pause.
-#     Timer(2, twitter.stop_streaming).start()
-#     twitter.start_streaming(callback)
-#     sleep(2)
-#     Timer(2, twitter.stop_streaming).start()
-#     twitter.start_streaming(callback)
+def test_streaming(twitter):
+    # Let the stream run for two seconds and run it again after a pause.
+    Timer(2, twitter.stop_streaming).start()
+    twitter.start_streaming(callback)
+    sleep(2)
+    Timer(2, twitter.stop_streaming).start()
+    twitter.start_streaming(callback)
 
 # #since trump twitter is suspended, we do not test it
 # def test_make_tweet_text(twitter):
