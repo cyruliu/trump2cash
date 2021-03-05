@@ -29,7 +29,8 @@ BACKOFF_RESET_S = 30 * 60
 MONITOR_HOST = '0.0.0.0'
 
 # The port for the monitor Web server.
-MONITOR_PORT = 80
+# MONITOR_PORT = 80
+MONITOR_PORT = 1042
 
 # The message returned by the monitor Web server.
 MONITOR_MESSAGE = 'OK'
@@ -95,8 +96,8 @@ class Main:
             return
 
         # Trade stocks.
-        trading = Trading(logs_to_cloud=LOGS_TO_CLOUD)
-        trading.make_trades(companies)
+       # trading = Trading(logs_to_cloud=LOGS_TO_CLOUD)
+       # trading.make_trades(companies)
 
         # Tweet about it.
         twitter = Twitter(logs_to_cloud=LOGS_TO_CLOUD)
